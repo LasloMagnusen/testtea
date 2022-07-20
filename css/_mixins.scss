@@ -1,0 +1,71 @@
+//font reset
+@mixin font-reset {
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@mixin transition($duration){
+  -webkit-transition: $duration;
+  -moz-transition: $duration;
+  -ms-transition: $duration;
+  -o-transition: $duration;
+  transition: $duration;
+}
+
+@mixin placeholder($color, $size, $weight) {
+  &::-webkit-input-placeholder {
+    color: $color;
+    font-size: $size;
+    font-weight: $weight;
+  }
+  &:-moz-placeholder {
+    color: $color;
+    font-size: $size;
+    font-weight: $weight;
+  }
+  &::-moz-placeholder {
+    color: $color;
+    font-size: $size;
+    font-weight: $weight;
+  }
+  &:-ms-input-placeholder {
+    color: $color;
+    font-size: $size;
+    font-weight: $weight;
+  }
+}
+
+//.box { @include transform(rotate(30deg)); }
+@mixin transform($property) {
+  -webkit-transform: $property;
+  -ms-transform: $property;
+  transform: $property;
+}
+
+//reset
+@mixin reset {
+  margin: 0;
+  padding: 0;
+}
+
+//media query
+@mixin mq-phone-s {
+  @media (max-width: 374px) { @content; }
+}
+@mixin mq-phone {
+  @media (max-width: 767px) { @content; }
+}
+@mixin mq-tablet-s {
+  @media (max-width: 992px) { @content; }
+}
+@mixin mq-tablet {
+  @media (max-width: 1200px) { @content; }
+}
+@mixin mq-desktop-s {
+  @media (max-width: 1400px) { @content; }
+}
+@mixin mq-desktop {
+  @media (max-width: 1800px) { @content; }
+}

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href = "Ravel/stylesheet.css" rel = "stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <title>TeaLand</title>
+    <link rel="stylesheet" href="/build/main.css">
+    <script src="/build/main.js"></script>
+
+    <style>
+      /* .forhtmlconnectwallet:hover{content:url("background-color:black") } */
+    </style>
+</head>
+<body>
+<div class="bg-wrapper">
+    <div class="container">
+        <!--ANIME-BLOCK-->
+        <div class="anime-block">
+            <div class="flex">
+                <div class="left-col">
+                    <div class="heading"><img src="./img/TeaAnime-h.png" alt=""></div>
+                    <div class="text">
+                        A collection of 10,000 unique TeaAnimes and 10,000 TeaLand lots, each TeaAnime owner will receive a FREE piece of TeaLand land. You can trade both characters and plots of land. Each NFT character and NFT land will receive a share of tokens from projects that will be funded by TeaFund.
+                    </div>
+                    <a class="btn nft-btn" style="display:none">
+                        <img src="img/buy_nft.svg" alt="">
+                    </a>
+                </div>
+                <div class="right-col">
+                    <img src="./img/NTF1.png" alt="" class="nft1 animate__animated animate__fadeIn animate__delay-3s animate__fast">
+                    <img src="./img/NTF2.png" alt="" class="nft2 animate__animated animate__fadeIn animate__delay-2s animate__fast">
+                    <img src="./img/NTF3.png" alt="" class="nft3 animate__animated animate__fadeIn animate__delay-4s animate__fast">
+                    <img src="./img/NTF4.png" alt="" class="nft4 animate__animated animate__fadeIn animate__delay-1s animate__fast">
+                    <img src="./img/NTF5.png" alt="" class="nft5 animate__animated animate__fadeIn animate__delay-4s animate__fast">
+                    <img src="./img/NTF6.png" alt="" class="nft6 animate__animated animate__fadeIn animate__delay-1s animate__fast">
+                    <img src="./img/NTF7.png" alt="" class="nft7 animate__animated animate__fadeIn animate__delay-2s animate__fast">
+                    <img src="./img/NTF8.png" alt="" class="nft8 animate__animated animate__fadeIn animate__fast">
+                </div>
+
+                <div class="right-col__mob">
+                    <img src="./img/anime.png" alt="">
+                </div>
+
+                <!--<button class="btn nft-btn hide-d" type="button">buy nft</button>-->
+            </div>
+        </div>
+          <!-- place for asdasd -->
+          <main>
+        
+            <div id="minting-dapp" style="display:none"></div>
+
+           
+          </main>
+        
+          <div id="notifications"></div>
+
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+     
+          <br>
+          <br>
+    
+          <br>
+
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+     
+          <br>
+          <br>
+    
+
+          <div class="minttext">
+            <span >Free mint for first buyers</span>
+<br>
+            <span >Zero for one NFT</span>
+<br>
+            <span >0.5 ETH for next</span>
+          </div>
+
+          <div id="parentmintbtn"class="right-col">
+            <button id="htmlmintbtn" onclick="tealandmint();">
+            <a class="btn land-btn">
+                <img src="img/buy_nft.svg" alt="">
+            </a></button>
+
+
+
+          </div>
+
+       <div><img class="forhtmlconnectwallet"  id="htmlconnectwallet"  src="/" alt=""  onClick="connectmetamask();" style="height:30%;width:30%"></div>
+
+        <script>
+          function connectmetamask(){
+
+             try {
+
+               document.getElementById('btnconnectwallet').click();
+
+
+                               } 
+                               
+                               catch (err) {
+
+                               console.log("You're already connected")
+
+                               }
+
+                           }
+       </script>
+
+     <script>
+
+       function tealandmint() {
+         try {
+
+           document.getElementById('btnmint').click();
+         }
+
+         catch (err) {
+           document.getElementById('btnconnectwallet').click();
+
+
+
+
+         }
+
+
+       }
+     </script>
+          <!-- asdasd -->
+        <!--LAND-BLOCK-->
+        <div class="land-block">
+            <div class="heading"><img src="./img/TeaLand-h.png" alt=""></div>
+            <div class="flex">
+                <div class="left-col">
+                    <div class="text text--tea">
+                        Get a FREE plot of land in TeaLand To get a plot, just buy any TeaAnime. A plot of land in TeaLand will give the right to distribute tokens from all new projects that will work with TeaFund. You will not need to farm, vote or be active, just keep your characters and land in your wallet and passively receive new project tokens.
+                    </div>
+                </div>
+                <div class="right-col">
+                    <a class="btn land-btn">
+                        <img src="img/claim_land.svg" alt="">
+                    </a>
+                </div>
+            </div>
+
+            <div class="slider">
+                <div class="flex">
+                    <div class="slide" data-type="1"><img src="./img/Spring.png" alt=""></div>
+                    <div class="slide" data-type="2"><img src="./img/Summer.png" alt=""></div>
+                    <div class="slide" data-type="3"><img src="./img/Autumn.png" alt=""></div>
+                    <div class="slide" data-type="4"><img src="./img/Winter.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+
+        <!--TEA-BLOCK-->
+        <div class="tea-block">
+            <div class="flex">
+                <div class="left-col">
+                    <div class="heading"><img src="./img/TeaFund-h.png" alt=""></div>
+                    <div class="text text--tea">
+                        Own venture capital fund TeaFund, with its own Tea token (BEP-20), the fund will select projects and finance them, projects will provide the fund with part of their tokens. Part of the tokens from these projects will be distributed between Tea token holders 50%, TeaAnime holders 20%, TeaLand holders 20%, another 10% will go to fund management and marketing.
+                    </div>
+                    <a class="btn tea-btn">
+                        <img class="biger " src="img/buy_tea.svg" alt="">
+                    </a>
+
+                    <div class="img-box hide-d">
+                        <img src="./img/tea-m.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--SOC-BLOCK-->
+        <div class="soc-block">
+            <div class="soc-box">
+                <p>Subscribe to our Twitter</p>
+                <div class="group">
+                    <a href="#" class="left-link">
+                        <img src="./img/twitter.svg" alt="">
+                    </a>
+                </div>
+                <p>TeaAnime. All rights reserved</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Javascript -->
+<script src="js/main.js"></script>
+</body>
+</html>
